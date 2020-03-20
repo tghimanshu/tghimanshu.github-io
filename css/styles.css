@@ -433,7 +433,7 @@ PROJECT IMAGES AND HOVER EFFECTS
     background-color: black;
     transition: background-color ease .4s,transform linear .4s;
 }
-.contact .socials i:hover {
+.get-in-touch .socials i:hover {
     color: white;
     background-color: orange;
     transform: scale(1.2) rotate(-360deg);
