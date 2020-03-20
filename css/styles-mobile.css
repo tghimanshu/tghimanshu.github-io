@@ -1,0 +1,78 @@
+/* Mobile Styles */
+
+/* navigation */
+
+nav {
+    flex-direction: column;
+    text-align: center;
+}
+nav h1 {
+    margin-bottom: 1rem;
+}
+nav ul {
+    font-size: .7rem;
+}
+
+/* Section Styles */
+
+.section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* About me Styles */
+
+.about-container {
+    flex-direction: column;
+}
+#abt-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Skills Styles */
+
+.sks {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+}
+
+/* Projects Styles */
+
+.projects {
+    grid-template-columns: 1fr;
+}
+
+/* Services Styles */
+
+.services {
+    flex-direction: column;
+}
+
+/* Hire Me Styles */
+
+.hire-me {
+    flex-direction: column;
+}
+
+.get-in-touch .socials {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
