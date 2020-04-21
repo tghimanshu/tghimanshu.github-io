@@ -1,3 +1,16 @@
+function hamburger(e){
+    e.preventDefault();
+    // alert("clicked");
+    $('.hamburger i').toggleClass('fa-times',1000);
+    if($(document).width() <= 678){
+        $('nav .menu').fadeToggle();
+      }
+  console.log($(window).width());
+
+    
+}
+
+
 document.addEventListener('scroll', () => {
     let x = window.scrollY;
     if(x>=5){
@@ -41,6 +54,18 @@ $('#scrollTop').click(function (e) {
         'scrollTop':0
     },500);
 });
+
+$('.hamburger').click(hamburger);
+$('.menu').click(function(){
+    $('.menu').fadeOut();
+});
+
+
+
+
+
+
+
 
 
 

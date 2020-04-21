@@ -52,6 +52,11 @@ nav {
     /* padding: 1rem; */
     flex-wrap: wrap;
 }
+
+.hamburger {
+    display: none;
+}
+
 nav ul {
     flex-wrap: wrap;
     display: flex;

@@ -64,8 +64,48 @@ nav ul {
     flex-wrap: wrap;
 }
 
+nav .menu {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    background: rgba(0, 0, 0, .95);
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    z-index: 1;
+}
+.menu ul {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-size: 2.5rem;
+}
+.menu ul li {
+    margin: 1rem;
+}
 
+nav h1 {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    flex-direction: row;
+}
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+}
 
+.menu nav {
+    position: fixed;
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+}
 
 
 

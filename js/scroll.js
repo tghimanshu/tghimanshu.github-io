@@ -8,6 +8,10 @@ $(document).ready(function() {
     $('body,html').animate({
       scrollTop: $(this.hash).offset().top - 50 // - $('.nav')[0].height
     }, 1000 );
+    if($(window).width() <= 678){
+      $('.hamburger i').toggleClass('fa-times',1000);
+      $('nav .menu').fadeToggle();
+    }
   });
   
   // Active link switching
@@ -16,7 +20,7 @@ $(document).ready(function() {
     
     scrollLink.each(function() {
       
-      var sectionOffset = $(this.hash).offset().top - 50;
+      var sectionOffset = $(this.hash).offset().top - 60;
       
       if ( sectionOffset <= scrollbarLocation ) {
         $(this).parent().addClass('active');
