@@ -57,7 +57,11 @@ $('#scrollTop').click(function (e) {
 
 $('.hamburger').click(hamburger);
 $('.menu').click(function(){
-    $('.menu').fadeOut();
+    if($(window).width() <= 678){
+      $('.hamburger i').removeClass('fa-times',1000);
+    //   $('nav .menu').fadeToggle();
+      $('.menu').fadeOut();
+    }
 });
 
 
